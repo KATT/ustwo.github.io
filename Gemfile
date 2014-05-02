@@ -1,3 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '~> 18'
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'maruku'
+gem 'rake'
+gem 'sass'
+gem 'uglifier'
+gem 'github-pages'

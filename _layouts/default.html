@@ -12,25 +12,37 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/"><img src="http://ustwo.com/images/shared/logo@2x.png" alt="ustwo logo"/></a></h1>
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">ustwo</a>
+            </div>
           </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="site">
+              {{ content }}
+            </div>
+          </div>
+        </div>
 
-          {{ content }}
-
-          <div class="footer">
+        <div class="footer">
+          <div class="footer-content">
             <div class="contact">
               <p>
                 welcome to ustwo engineering<br />
               </p>
             </div>
-            <div class="contact">
+            <div class="contact right">
               <p>
-                <a href="https://github.com/ustwo">github.com/ustwo</a><br />
                 <a href="https://twitter.com/ustwo">twitter.com/ustwo</a><br />
               </p>
             </div>
