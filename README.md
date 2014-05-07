@@ -56,8 +56,3 @@ Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for 
 + Documentation
 + Less config files
 + Better deploy scripts
-
-## Copyright and license
-
-Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
-
